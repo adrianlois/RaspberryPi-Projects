@@ -65,8 +65,6 @@ Añadimos una tarea programada en "/etc/crontab" que ejecutará el script *"thin
 @hourly root python /thingspeak/thingspeak_raspi_dht22.py
 ```
 
-Channel ThingSpeak: https://thingspeak.com/channels/769908/
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-sensor-dht22-am2302-thingspeak/master/screenshots/raspberrypi-thingspeak-adryanraspi.png" width="720" />
 </p>
