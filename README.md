@@ -49,7 +49,7 @@ Temperatura=21.2*  Humedad=57.7%
 <img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-sensor-dht22-am2302-thingspeak/master/screenshots/raspberrypi-gpio-foto-sensor-dht22-am2302.jpg" width="580" />
 </p>
 
-## Configuración en la web de ThingSpeak.com
+## Configuración de la cuenta de ThingSpeak.com
 
 1. Registrarse en https://thingspeak.com
 2. Si no tenemos cuenta previa en mathworks, thingspeak nos redirigue usando el mismo email hacia el registro de https://www.mathworks.com. 
