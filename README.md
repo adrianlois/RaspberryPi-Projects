@@ -52,7 +52,7 @@ Temperatura=21.2*  Humedad=57.7%
 ## Configuración en la web de ThingSpeak.com
 
 1. Registrarse en https://thingspeak.com
-2. Registrarse en https://www.mathworks.com
+2. Si no tenemos cuenta previa podemos aprovechar el mismo email para registrarse en https://www.mathworks.com. 
 3. Crear un nuevo channel en nuestra perfil y agregar dos field chart (Temperatura y Humedad).
 4. Obtener el **"Write API Key"** del channel creado.
 5. Establecer el API Key en el script *"thingspeak_raspi_dht22.py"* en la variable ***miAPIWrite***. 
