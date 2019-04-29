@@ -29,6 +29,16 @@ Podemos hacer otro esquema de conexión siempre que se respete la funcionalidad 
 
 En el script *"thingspeak_raspi_dht22.py"* establecemos el número de GPIO en la variable ***raspiGPIO***.
 
+#### Test de conexión del sensor DHT22 AM2302
+
+Teniendo las librerías Adafruit ya instaladas una forma de probar la conexión entre el sensor y la RaspberryPi es ejecutar el script de ejemplo para obtener los datos de temperatura y humedad actuales.
+
+Se le pasa como primer parámetro el modelo de sensor "2302" y el número de GPIO del pin correspondiente donde está conectado la salida de datos (out) del sensor, en este caso 4 (GPIO4)
+```
+$ python Adafruit_Python_DHT/examples/AdafruitDHT.py 2302 4
+Temperatura=21.2*  Humedad=57.7%
+```
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-sensor-dht22-am2302-thingspeak/master/screenshots/raspberrypi-gpio-esquema-conexion-sensor-dht22-am2302.png" width="620" />
 </p>
@@ -44,6 +54,8 @@ En el script *"thingspeak_raspi_dht22.py"* establecemos el número de GPIO en la
 3. Crear un nuevo channel en nuestra perfil y agregar dos field chart (Temperatura y Humedad).
 4. Obtener el **"Write API Key"** del channel creado.
 5. Establecer el API Key en el script *"thingspeak_raspi_dht22.py"* en la variable ***miAPIWrite***. 
+
+Channel ThingSpeak: https://thingspeak.com/
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-sensor-dht22-am2302-thingspeak/master/screenshots/raspberrypi-thingspeak-adryanraspi.png" width="720" />
