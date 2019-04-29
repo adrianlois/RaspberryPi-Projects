@@ -1,6 +1,5 @@
 import sys
 import RPi.GPIO as GPIO
-#from time import sleep
 import Adafruit_DHT
 import urllib2
 miAPIWrite = "XXXXXXXXXXXXXXXX"
@@ -22,6 +21,5 @@ def main():
        except:
            print 'exiting.'
            break
-# call main
 if __name__ == '__main__':
    main()
