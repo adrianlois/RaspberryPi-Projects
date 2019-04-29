@@ -57,6 +57,14 @@ Temperatura=21.2*  Humedad=57.7%
 4. Obtener el **"Write API Key"** del channel creado.
 5. Establecer el API Key en el script *"thingspeak_raspi_dht22.py"* en la variable ***miAPIWrite***. 
 
+#### Programar el envío de datos a ThingSpeak.com (crontab)
+
+Añadimos una tarea programada en "/etc/crontab" que ejecutará el script *"thingspeak_raspi_dht22.py"* enviando los datos captados a nuestra cuenta de ThingSpeak
+
+```
+@hourly root python /thingspeak/thingspeak_raspi_dht22.py
+```
+
 Channel ThingSpeak: https://thingspeak.com/channels/769908/
 
 <p align="center">
