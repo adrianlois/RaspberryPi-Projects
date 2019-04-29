@@ -1,7 +1,7 @@
 # RaspberryPi-sensor-dht22-am2302-thingspeak
-Raspberry Pi 3 B+ - Medir temperatura y humedad con sensor DHT22 (AM2302) y enviar datos a ThingSpeak.com
+Raspberry Pi 3 B+ - Captar temperatura y humedad con sensor DHT22 (AM2302) y enviar datos a ThingSpeak.com
 
-Channel ThingSpeak: https://thingspeak.com/
+Channel ThingSpeak: https://thingspeak.com/channels/769908/
 
 ## Requisitos previos
 
@@ -52,12 +52,12 @@ Temperatura=21.2*  Humedad=57.7%
 ## Configuración en la web de ThingSpeak.com
 
 1. Registrarse en https://thingspeak.com
-2. Si no tenemos cuenta previa podemos aprovechar el mismo email para registrarse en https://www.mathworks.com. 
+2. Si no tenemos cuenta previa en mathworks, thingspeak nos redirigue usando el mismo email hacia el registro de https://www.mathworks.com. 
 3. Crear un nuevo channel en nuestra perfil y agregar dos field chart (Temperatura y Humedad).
 4. Obtener el **"Write API Key"** del channel creado.
 5. Establecer el API Key en el script *"thingspeak_raspi_dht22.py"* en la variable ***miAPIWrite***. 
 
-Channel ThingSpeak: https://thingspeak.com/
+Channel ThingSpeak: https://thingspeak.com/channels/769908/
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-sensor-dht22-am2302-thingspeak/master/screenshots/raspberrypi-thingspeak-adryanraspi.png" width="720" />
