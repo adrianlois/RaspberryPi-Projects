@@ -55,7 +55,7 @@ Temperatura=21.2*  Humedad=57.7%
 2. Si no tenemos cuenta previa en mathworks, thingspeak nos redirigue usando el mismo email hacia el registro de https://www.mathworks.com. 
 3. Crear un nuevo channel en nuestra perfil y agregar dos field chart (Temperatura y Humedad).
 4. Obtener el **"Write API Key"** del channel creado.
-5. Establecer el API Key en el script *"thingspeak_raspi_dht22.py"* en la variable ***miAPIWrite***. 
+5. Establecer el "Write API Key" en el script *"thingspeak_raspi_dht22.py"* en la variable ***miAPIWrite***. 
 
 #### Programar el envío de datos a ThingSpeak.com (crontab)
 
