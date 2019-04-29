@@ -34,7 +34,7 @@ En el script *"thingspeak_raspi_dht22.py"* establecemos el número de GPIO en la
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-sensor-dht22-am2302-thingspeak/master/screenshots/raspberrypi-gpio-foto-sensor-dht22-am2302.jpg" />
+<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-sensor-dht22-am2302-thingspeak/master/screenshots/raspberrypi-gpio-foto-sensor-dht22-am2302.jpg" width="580" />
 </p>
 
 ## Configuración en la web de ThingSpeak.com
