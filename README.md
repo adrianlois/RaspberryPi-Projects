@@ -7,8 +7,8 @@ Channel ThingSpeak: https://thingspeak.com/
 
 #### Instalar Python 2
 ```
-sudo apt-get update -y
-sudo apt-get install python-pip -y
+sudo apt update -y
+sudo apt install python-pip -y
 sudo python -m pip install --upgrade pip setuptools wheel
 ```
 
