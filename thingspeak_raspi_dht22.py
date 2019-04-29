@@ -2,7 +2,9 @@ import sys
 import RPi.GPIO as GPIO
 import Adafruit_DHT
 import urllib2
+# Write API Key ThingSpeak.com
 miAPIWrite = "XXXXXXXXXXXXXXXX"
+# Número GPIO de conexión out del sensor dht22 a RaspberryPi
 raspiGPIO = "X"
 def getSensorData():
    RH, T = Adafruit_DHT.read_retry(Adafruit_DHT.DHT22, raspiGPIO)
