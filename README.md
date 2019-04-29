@@ -1,6 +1,8 @@
 # RaspberryPi-sensor-dht22-am2302-thingspeak
 Raspberry Pi 3 B+ - Medir temperatura y humedad con sensor DHT22 (AM2302) y enviar datos a ThingSpeak.com
 
+Channel ThingSpeak: https://thingspeak.com/
+
 ## Requisitos previos
 
 #### Instalar Python 2
@@ -60,8 +62,3 @@ Channel ThingSpeak: https://thingspeak.com/
 <p align="center">
 <img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-sensor-dht22-am2302-thingspeak/master/screenshots/raspberrypi-thingspeak-adryanraspi.png" width="720" />
 </p>
-
-
-
-
-
