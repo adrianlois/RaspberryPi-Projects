@@ -3,15 +3,15 @@ import RPi.GPIO as GPIO
 import Adafruit_DHT
 import urllib2
 # Write API Key ThingSpeak.com
-miAPIWrite = "XXXXXXXXXXXXXXXX"
+miWriteAPIKey = "XXXXXXXXXXXXXXXX"
 # Número GPIO de conexión out del sensor dht22 a RaspberryPi
-raspiGPIO = "X"
+raspiNumGPIO = "X"
 def getSensorData():
-   RH, T = Adafruit_DHT.read_retry(Adafruit_DHT.DHT22, raspiGPIO)
+   RH, T = Adafruit_DHT.read_retry(Adafruit_DHT.DHT22, raspiNumGPIO)
    return (str(RH), str(T))
 def main():
-   print 'starting...'
-   baseURL = 'https://api.thingspeak.com/update?api_key=%s' % miAPIWrite
+   print 'Iniciando...'
+   baseURL = 'https://api.thingspeak.com/update?api_key=%s' % miWriteAPIKey
    while True:
        try:
            RH, T = getSensorData()
@@ -21,7 +21,8 @@ def main():
            f.close()
            sleep(5)
        except:
-           print 'exiting.'
+           print 'Terminado.'
            break
 if __name__ == '__main__':
    main()
+   
