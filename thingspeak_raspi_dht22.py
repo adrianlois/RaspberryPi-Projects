@@ -1,7 +1,7 @@
 import sys
+import urllib2
 import RPi.GPIO as GPIO
 import Adafruit_DHT
-import urllib2
 # Write API Key ThingSpeak.com
 miWriteAPIKey = "XXXXXXXXXXXXXXXX"
 # Número GPIO de conexión out del sensor dht22 a RaspberryPi
