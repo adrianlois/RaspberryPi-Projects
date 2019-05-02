@@ -15,8 +15,7 @@ def main():
    while True:
        try:
            RH, T = getSensorData()
-           f = urllib2.urlopen(baseURL +
-                               "&field1=%s&field2=%s" % (RH, T))
+           f = urllib2.urlopen(baseURL + "&field1=%s&field2=%s" % (RH, T))
            print f.read()
            f.close()
            sleep(5)
