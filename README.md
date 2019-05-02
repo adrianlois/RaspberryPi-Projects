@@ -29,7 +29,7 @@ El sensor DHT22 AM2302 consta de 3 pines:
 
 Podemos hacer otro esquema de conexión siempre que se respete la funcionalidad de cada pin del sensor al esquema de conexión de la RaspberryPi. Hay que tener en cuenta el número de GPIO donde iría conectado el pin "out" del sensor, este nos proporciona la salida de datos captados. 
 
-En el script *"thingspeak_raspi_dht22.py"* establecemos el número de GPIO en la variable ***raspiGPIO***.
+En el script *"thingspeak_raspi_dht22.py"* establecemos el número de GPIO en la variable ***raspiNumGPIO***.
 
 #### Test de conexión del sensor DHT22 AM2302
 
@@ -55,13 +55,12 @@ Temperatura=21.2*  Humedad=57.7%
 2. Si no tenemos cuenta previa en MathWorks. ThingSpeak nos redirigue, con la posibilidad de usar el mismo email, hacia el registro de https://www.mathworks.com. 
 3. Crear un nuevo channel en nuestra perfil y agregar dos field chart (Temperatura y Humedad).
 4. Obtener el **"Write API Key"** del channel creado.
-5. Establecer el "Write API Key" en el script *"thingspeak_raspi_dht22.py"* en la variable ***miAPIWrite***. 
+5. Establecer el "Write API Key" en el script *"thingspeak_raspi_dht22.py"* en la variable ***miWriteAPIKey***. 
 6. Podemos usar y personalizar plantillas de código ***Matlab*** para la visualización de los datos registrados en los field chart del channel de ThingSpeak.
 
 #### Programar el envío de datos a ThingSpeak.com (crontab)
 
 Añadimos una tarea programada en "/etc/crontab" que ejecutará el script *"thingspeak_raspi_dht22.py"* enviando los datos captados a nuestra cuenta de ThingSpeak
-
 ```
 @hourly root python /thingspeak/thingspeak_raspi_dht22.py
 ```
