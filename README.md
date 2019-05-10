@@ -60,7 +60,7 @@ Temperatura=21.2*  Humedad=57.7%
 
 #### Programar el envío de datos a ThingSpeak.com (crontab)
 
-Añadimos una tarea programada en "/etc/crontab" que ejecutará el script *"thingspeak_raspi_dht22.py"* enviando los datos captados a nuestra cuenta de ThingSpeak
+Añadimos una tarea programada en cron (/etc/crontab) que ejecutará el script *"thingspeak_raspi_dht22.py"* enviando los datos captados a nuestra cuenta de ThingSpeak
 ```
 @hourly root python /thingspeak/thingspeak_raspi_dht22.py
 ```
