@@ -1,2 +1,0 @@
-# Ejecutar cada hora
-@hourly root python /thingspeak/thingspeak_raspi_dht22.py
