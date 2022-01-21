@@ -43,11 +43,11 @@ Temperatura=21.2*  Humedad=57.7%
 ```
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-Projects/master/01.rpi-sensor-dht22-am2302-thingspeak/screenshots/rpi-gpio-esquema-conexion-sensor-dht22-am2302.png" width="600" />
+<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-Projects/master/01.rpi-sensor-dht22-am2302-thingspeak/screenshots/rpi-gpio-esquema-conexion-sensor-dht22-am2302.png" width="570" />
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-Projects/master/01.rpi-sensor-dht22-am2302-thingspeak/screenshots/rpi-gpio-foto-sensor-dht22-am2302.jpg" width="520" />
+<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-Projects/master/01.rpi-sensor-dht22-am2302-thingspeak/screenshots/rpi-gpio-foto-sensor-dht22-am2302.jpg" width="500" />
 </p>
 
 ## Configuración de la cuenta de ThingSpeak.com
@@ -67,5 +67,5 @@ Añadimos una tarea programada en cron (/etc/crontab) que ejecutará el script *
 ```
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-Projects/master/01.rpi-sensor-dht22-am2302-thingspeak/screenshots/rpi-thingspeak-adryanraspi.png" width="720" />
+<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-Projects/master/01.rpi-sensor-dht22-am2302-thingspeak/screenshots/rpi-thingspeak-adryanraspi.png" width="710" />
 </p>
