@@ -47,7 +47,7 @@ Temperatura=21.2*  Humedad=57.7%
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-Projects/master/01.rpi-sensor-dht22-am2302-thingspeak/screenshots/rpi-gpio-foto-sensor-dht22-am2302.jpg" width="500" />
+<img src="https://raw.githubusercontent.com/adrianlois/RaspberryPi-Projects/master/01.rpi-sensor-dht22-am2302-thingspeak/screenshots/rpi-gpio-foto-sensor-dht22-am2302.jpg" width="490" />
 </p>
 
 ## Configuración de la cuenta de ThingSpeak.com
