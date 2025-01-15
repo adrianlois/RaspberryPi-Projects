@@ -1,7 +1,7 @@
 # RaspberryPi-sensor-dht22-am2302-thingspeak
 Raspberry Pi 3 B+ - Capturar temperatura y humedad con sensor DHT22 (AM2302) y enviar datos a ThingSpeak.com
 
-- Web: https://www.zonasystem.com/2019/05/raspberrypi-adafruit-temperatura-humedad-sensor-dht22-am2302-enviar-datos-thingspeak.html
+- Web: https://zonasystem.com/2019/05/raspberrypi-adafruit-temperatura-humedad-sensor-dht22-am2302-enviar-datos-thingspeak.html
 - Channel ThingSpeak: https://thingspeak.com/channels/769908/
 
 ## Requisitos previos
